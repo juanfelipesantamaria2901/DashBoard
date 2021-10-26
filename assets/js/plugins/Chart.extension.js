@@ -65,7 +65,7 @@ Chart.elements.Rectangle.prototype.draw = function() {
   // Corner points, from bottom-left to bottom-right clockwise
   // | 1 2 |
   // | 0 3 |
-  var corners = [
+  let corners = [
     [left, bottom],
     [left, top],
     [right, top],
